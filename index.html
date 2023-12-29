@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptRecall</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class = "logo">Prompt<span>Recall</span></a>
+            <img id = "mobile-cta" class = "mobile-menu" src="images/menu.png" alt="Menu">
+            <nav>
+                <img id = "mobile-exit" class = "mobile-menu-exit" src="images/closse.png" alt="Close button">
+                <ul class = "primary-nav">
+                    <li class = "active"><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+
+                <ul class = "secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class = "go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class = "hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty! </p>
+                <h1>Remembering Made Simple &amp; Smooth</h1>
+                <p class="moredetails">Let our reminders guide you to a more organized and productive day to day life.</p>
+
+                <div class="hero-cta">
+                    <a href="#" class = "primary-cta">Try for free</a>
+                    <a href="#" class = "watch-video-cta">
+                        <img src="images/watch.png" alt="Watch a video" class = "watch"><p>Watch a video</p>
+                    </a>
+                </div>
+            </div>
+            <img src="images/notepad2.png" class = "hero-img" alt="Notepad">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class = "features-list">
+                <li>Intuitive Task Creation</li>
+                <li>Customizable Categories</li>
+                <li>Effortless Task Tracking</li>
+                <li>Collaboration Made Easy</li>
+                <li>Deadline Notificattions</li>
+                <li>Other Awesome Features</li>
+            </ul>
+            <img src="images/man_phone.jpg" alt="Person holding a phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/mohammad-faruque.jpg" alt="Person">
+                    <blockquote>"Prompt Recall has revolutionized my daily routine. I've never been more organized and on top of my tasks."</blockquote>
+                    <cite>-Mohammad Faruque</cite>
+                </li>
+                <li>
+                    <img src="images/ayo-ogunseinde.jpg" alt="Person">
+                    <blockquote>"Effortlessly managing work and personal life with PrompRecall. It's become my go-to productivity tool!"</blockquote>
+                    <cite>-Ayo Ogunseinde</cite>
+                </li>
+                <li>
+                    <img src="images/dorrell.jpg" alt="Person">
+                    <blockquote>"The deadline notifications ensure I never miss a beat. Finally, a reminder app that adapts to my schedule."</blockquote>
+                    <cite>-Dorell Joe</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id = "name" name = "name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id = "email" name = "email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class = "send-message-cta" value = "Send message">
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44458.428133574664!2d36.721445937081334!3d-1.3971894839850632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05cf50f94e8d%3A0x51c29656e6fd8ca9!2sOngata%20Rongai!5e0!3m2!1sen!2ske!4v1699712872204!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+
+</body>
+</html>
