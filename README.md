@@ -17,12 +17,6 @@ Prompt Recall is a reminder app designed to help you organize your tasks efficie
 
 This project is currently in its early stages, featuring a landing page. Full functionality is planned for future development. Stay tuned for updates!
 
-## Contact
-
-For any inquiries or feedback, feel free to reach out.
-
-Email: mianoedwin007@gmail.com
-
 ## Getting Started
 
 1. Clone the repository.
@@ -32,6 +26,12 @@ Email: mianoedwin007@gmail.com
 ## Contribution
 
 If you would like to contribute to this project, feel free to submit a pull request.
+
+## Contact
+
+For any inquiries or feedback, feel free to reach out.
+
+Email: mianoedwin007@gmail.com
 
 ## Live Demo
 Visit: http://mianoedwin.infinityfreeapp.com/
