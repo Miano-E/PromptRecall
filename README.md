@@ -33,5 +33,3 @@ For any inquiries or feedback, feel free to reach out.
 
 Email: mianoedwin007@gmail.com
 
-## Live Demo
-Visit: http://mianoedwin.infinityfreeapp.com/
